@@ -1,0 +1,427 @@
+[
+  {
+    "pricing": [
+      {
+        "id": "1",
+        "price": "125",
+        "title": "Personal Introduction",
+        "buttonText": "In-office Meetup",
+        "btnUrl": "/in-office-meetup1",
+        "viewMoreUrl": "/view-more1",
+        "details": [
+          {
+            "id": "1",
+            "paragraph": "<strong>The introduction</strong> to each woman is $125.00 per woman."
+          },
+          {
+            "id": "2",
+            "paragraph": "It is refundable or creditable if you don&apos;t meet for whatever reason."
+          },
+          {
+            "id": "3",
+            "paragraph": "There is <strong>ONE office registration fee of $150.00</strong> that is included in the prices."
+          },
+          {
+            "id": "4",
+            "paragraph": "This registration fee is <strong>good for 10 days only and for ONE city (office) only</strong>."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "price": "1,695",
+        "title": "Individual Club Tour",
+        "buttonText": "Schedule Today",
+        "btnUrl": "/schedule-today2",
+        "viewMoreUrl": "/view-more2",
+        "details": [
+          {
+            "id": "1",
+            "paragraph": "<strong>Airport or Train Station Pick-Up</strong> in your selected city."
+          },
+          {
+            "id": "2",
+            "paragraph": "<strong>One-on-one Introductions</strong> perform UP TO 3."
+          },
+          {
+            "id": "3",
+            "paragraph": "<strong>On-going introductions</strong> for 7,10 or 14 days."
+          },
+          {
+            "id": "4",
+            "paragraph": "<strong>Fiancee Visa package</strong> ($93.45 value, US citizens only)."
+          },
+          {
+            "id": "5",
+            "paragraph": "<strong>One month Platinum Membership</strong> ($95.00 value)."
+          },
+          {
+            "id": "6",
+            "paragraph": "<strong>$100 OFF any ONE-TIME</strong> attendance at any AFA."
+          },
+          {
+            "id": "7",
+            "paragraph": "<strong>Courtesy Service</strong> to help with questions."
+          },
+          {
+            "id": "8",
+            "paragraph": "<strong>New Women Applicants</strong> to access new profiles."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "price": "3,095",
+        "title": "Group Tour",
+        "buttonText": "Meet Her at The Socials",
+        "btnUrl": "/meet-her-at-the-socials3",
+        "viewMoreUrl": "/view-more3",
+        "details": [
+          {
+            "id": "1",
+            "paragraph": "<strong>Socials</strong> All one city tours include 2 socials."
+          },
+          {
+            "id": "2",
+            "paragraph": "<strong>Unlimited Introductions</strong> from our Hospitality."
+          },
+          {
+            "id": "3",
+            "paragraph": "<strong>Hotel accommodations</strong> including free daily breakfast."
+          },
+          {
+            "id": "4",
+            "paragraph": "<strong>Transport</strong> from airport, hotel, & all AFA events."
+          },
+          {
+            "id": "5",
+            "paragraph": "<strong>One three-hour</strong> guided tour of the first city."
+          },
+          {
+            "id": "6",
+            "paragraph": "<strong>Hotel area and orientation</strong> walking tours of all cities."
+          },
+          {
+            "id": "7",
+            "paragraph": "<strong>Free 1 month Platinum Membership</strong> a $95.00 value!"
+          },
+          {
+            "id": "8",
+            "paragraph": "<strong>Free $50</strong> Express Mail credit."
+          },
+          {
+            "id": "9",
+            "paragraph": "<strong>Free Fiancee Visa Kit</strong> (U.S. residents only) $89.50."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "price": "7,500",
+        "title": "Executive Plan",
+        "buttonText": "Max Advantage",
+        "btnUrl": "/max-advantage4",
+        "viewMoreUrl": "/view-more4",
+        "details": [
+          {
+            "id": "1",
+            "paragraph": "<strong>Personal meeting</strong> held at our Phoenix offices."
+          },
+          {
+            "id": "2",
+            "paragraph": "<strong>In-depth</strong> questionnaire and personality assessment."
+          },
+          {
+            "id": "3",
+            "paragraph": "<strong>Videotape</strong> made of the client."
+          },
+          {
+            "id": "4",
+            "paragraph": "<strong>Analysis</strong> of the questionnaire and personality."
+          },
+          {
+            "id": "5",
+            "paragraph": "<strong>Dissemination</strong> of the required information."
+          },
+          {
+            "id": "6",
+            "paragraph": "<strong>Personal Consultant</strong> coordinating the efforts."
+          },
+          {
+            "id": "7",
+            "paragraph": "<strong>3-way phone</strong> or Skype conversations."
+          },
+          {
+            "id": "8",
+            "paragraph": "<strong>Up to a $5000</strong> correspondence credit."
+          },
+          {
+            "id": "9",
+            "paragraph": "<strong>Personal meetings</strong> arranged in any of our offices."
+          },
+          {
+            "id": "10",
+            "paragraph": "<strong>Consultation</strong> with an immigration attorney."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "banner": [
+      {
+        "id": "1",
+        "bannerH1": "All the tools and options you need to find your foreign love NOW!",
+        "introVideoThumbnail": "/images/loveme-main-video-new.jpg",
+        "introVideo": "https://www.youtube.com/embed/VNq6j_grrTw?si=1y4JaSDoMA25F33D&autoplay=1&mute=1&cc_load_policy=1",
+        "introVideoPreview": "/images/image-preview.png",
+        "bannerDetails": [
+          {
+            "id": "1",
+            "bannerLogo": "/images/a-foreign-affair-logo-1.png",
+            "bannerIntroTxt": "Have you been looking for that special someone, yet have not been able to find a woman with similar values and interests as yourself?",
+            "bannerImgPreview": "/images/image-preview.png"
+          }
+        ],
+        "cards": [
+          {
+            "id": "1",
+            "cardText": "Newest Profiles",
+            "cardUrl": "/newest-profiles1",
+            "cardImg": "/images/new-women-banner-thumb.webp",
+            "cardImgPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "2",
+            "cardText": "Asian Profiles",
+            "cardUrl": "/asian-profiles2",
+            "cardImg": "/images/asian-banner-thumb.webp",
+            "cardImgPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "3",
+            "cardText": "Latin Profiles",
+            "cardUrl": "/latin-profiles3",
+            "cardImg": "/images/latin-banner-thumb.webp",
+            "cardImgPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "4",
+            "cardText": "European Profiles",
+            "cardUrl": "/european-profiles4",
+            "cardImg": "/images/ukraine-banner-thumb.webp",
+            "cardImgPreview": "/images/image-preview.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "travelAndMeet": [
+      {
+        "liveImg": [
+          {
+            "id": "1",
+            "travImg": "/images/int-webcast-slider.webp",
+            "travImgPreview": "/images/image-preview.png",
+            "travImgTitle": "EURO WEBCAST",
+            "schedTxt": "Next Show: LIVE MONDAY NIGHT @ 7:30 PM EST",
+            "linkUrl": "/international-live-show"
+          },
+          {
+            "id": "2",
+            "travImg": "/images/latin-webcast-slider.webp",
+            "travImgPreview": "/images/image-preview.png",
+            "travImgTitle": "LATIN WEBCAST",
+            "schedTxt": "Next Show: LIVE TUESDAY NIGHT @ 7:30 PM EST",
+            "linkUrl": "/latin-live-show"
+          },
+          {
+            "id": "3",
+            "travImg": "/images/asian-webcast-slider.webp",
+            "travImgPreview": "/images/image-preview.png",
+            "travImgTitle": "ASIAN WEBCAST",
+            "schedTxt": "Next Show: LIVE WEDNESDAY NIGHT @ 7:30 PM EST",
+            "linkUrl": "/asian-live-show"
+          }
+        ],
+        "cardsTm": [
+          {
+            "id": "1",
+            "cardTextTm": "TOURS",
+            "cardUrlTm": "/tours1",
+            "cardImgTm": "/images/tours.webp",
+            "cardImgTmPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "2",
+            "cardTextTm": "SOCIALS",
+            "cardUrlTm": "/socials2",
+            "cardImgTm": "/images/social.webp",
+            "cardImgTmPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "3",
+            "cardTextTm": "TESTIMONIAL",
+            "cardUrlTm": "/testimonials3",
+            "cardImgTm": "/images/testimonial.webp",
+            "cardImgTmPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "4",
+            "cardTextTm": "LADIES PROFILE",
+            "cardUrlTm": "/ladies-profile4",
+            "cardImgTm": "/images/ladiesprofile.webp",
+            "cardImgTmPreview": "/images/image-preview.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "executivePlan": [
+      {
+        "executiveImg": [
+          {
+            "id": "1",
+            "execImg": "/images/homepage-services1.png",
+            "execUrl": "/executive-plan0",
+            "execImgPreview": "/images/image-preview.png",
+            "execTitle": "EXECUTIVE PLAN",
+            "execTxt": "Our highly intense, affordable program for men who are serious about finding their special woman quickly with your own personally assigned lead matchmaker - advisor."
+          }
+        ],
+        "cardsExec": [
+          {
+            "id": "1",
+            "cardTextExec": "How We Work",
+            "cardUrlExec": "/how-we-work1",
+            "cardImgExec": "/images/homepage-services4.png",
+            "cardImgExecPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "2",
+            "cardTextExec": "Phone / Video Calls",
+            "cardUrlExec": "/phone-video-calls2",
+            "cardImgExec": "/images/homepage-services3.png",
+            "cardImgExecPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "3",
+            "cardTextExec": "Get Her Attention With a Gift",
+            "cardUrlExec": "/send-gifts3",
+            "cardImgExec": "/images/homepage-services2.png",
+            "cardImgExecPreview": "/images/image-preview.png"
+          },
+          {
+            "id": "4",
+            "cardTextExec": "what is IMBRA",
+            "cardUrlExec": "/what-is-imbra4",
+            "cardImgExec": "/images/homepage-services5.png",
+            "cardImgExecPreview": "/images/image-preview.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "testimonial": [
+      {
+        "id": "1",
+        "clientName": "René",
+        "clientComment": "This is my first time attending a social event of this nature. It is another way to meet people, except in this case, from different parts of the world. I do not consider this type of event a traditional dating site (Bumble, Hinge, Tinder, etc.) or marriage service (\"mail order brides\"),"
+      },
+      {
+        "id": "2",
+        "clientName": "Leonardo K.",
+        "clientComment": "It's not easy to meet Slavic women, but they've come to Mexico so I had the chance to meet a few and it's been a great experience. The socials were great. It was so much fun. It's not easy to meet Slavic women, but they've come to Mexico so I had the chance to meet a few and it's been a great experience. The socials were great. It was so much fun."
+      },
+      {
+        "id": "3",
+        "clientName": "Eric B.",
+        "clientComment": "It's not easy to meet Slavic women, but they've come to Mexico so I had the chance to meet a few and it's been a great experience. The socials were great. It was so much fun. It's not easy to meet Slavic women, but they've come to Mexico so I had the chance to meet a few and it's been a great experience. The socials were great. It was so much fun."
+      }
+    ]
+  },
+  {
+    "successStories": [
+      {
+        "id": "1",
+        "videoImg": "/images/homepage-video-testi-img1.png",
+        "videoImgPreview": "/images/image-preview.png",
+        "videoUrl": "https://www.youtube.com/embed/G7U6H-VXgLQ?si=YfdDg3V5DMgyBicO&autoplay=1&mute=1&cc_load_policy=1"
+      },
+      {
+        "id": "2",
+        "videoImg": "/images/homepage-video-testi-img2.png",
+        "videoImgPreview": "/images/image-preview.png",
+        "videoUrl": "https://www.youtube.com/embed/tnFvWxbDGjs?si=ApsWd2PR_0oA8S7-&autoplay=1&mute=1&cc_load_policy=1"
+      },
+      {
+        "id": "3",
+        "videoImg": "/images/homepage-video-testi-img3.png",
+        "videoImgPreview": "/images/image-preview.png",
+        "videoUrl": "https://www.youtube.com/embed/7yIx3-lpRps?si=Xz3ExLxOm4DPER2Q&autoplay=1&mute=1&cc_load_policy=1"
+      },
+      {
+        "id": "4",
+        "videoImg": "/images/homepage-video-testi-img4.png",
+        "videoImgPreview": "/images/image-preview.png",
+        "videoUrl": "https://www.youtube.com/embed/GOJwOKSr93E?si=_MML030JmlRC_szx&autoplay=1&mute=1&cc_load_policy=1"
+      }
+    ]
+  },
+  {
+    "newsLetter": [
+      {
+        "id": "1",
+        "newsH2": "Any thoughts or questions?",
+        "newsH3": "LET US HELP!",
+        "newsBtn": "Send us an email today!",
+        "newsP": "Member support is our priority. We'll respond as quickly as possible. Or call our offices at <strong>+1 (602) 553-8178</strong> anytime Monday to Friday 8am to 5pm PST.",
+        "matchMakeimages": [
+          {
+            "id": "1",
+            "imgUrl": "/images/matchmakers1.png",
+            "imgUrlPreview": "/images/image-preview.png",
+            "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=ronnalou.afa@gmail.com",
+            "matchMakerName": "Ronna Lou",
+            "matchMakerLocation": "Asia Matchmaker"
+          },
+          {
+            "id": "2",
+            "imgUrl": "/images/matchmakers2.png",
+            "imgUrlPreview": "/images/image-preview.png",
+            "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=afa.annasochina@gmail.com",
+            "matchMakerName": "Elizabeth",
+            "matchMakerLocation": "Europe Matchmaker"
+          },
+          {
+            "id": "3",
+            "imgUrl": "/images/matchmakers3.png",
+            "imgUrlPreview": "/images/image-preview.png",
+            "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=afa.annasochina@gmail.com",
+            "matchMakerName": "Dan & Polina",
+            "matchMakerLocation": "Europe Matchmaker"
+          },
+          {
+            "id": "4",
+            "imgUrl": "/images/matchmakers4.png",
+            "imgUrlPreview": "/images/image-preview.png",
+            "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=mariboettcher.afa@gmail.com",
+            "matchMakerName": "Maria",
+            "matchMakerLocation": "Latin America Matchmaker"
+          },
+          {
+            "id": "5",
+            "imgUrl": "/images/matchmakers5.png",
+            "imgUrlPreview": "/images/image-preview.png",
+            "email": "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=afa.annasochina@gmail.com",
+            "matchMakerName": "Dina",
+            "matchMakerLocation": "Europe Matchmaker"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "email": "afacebu.joseanthony@gmail.com",
+    "role": "Admin"
+  },
+  {
+    "email": "afacebu.abraham@gmail.com",
+    "role": "Admin",
+    "name": "Abraham Sulit",
+    "id": "110e2ab0-14e9-400c-a8c9-1186949aacec"
+  },
+  {
+    "email": "afacebu.ninovincent@gmail.com",
+    "role": "Admin"
+  },
+  {
+    "email": "afacebu.wilfredo@gmail.com",
+    "role": "Developer"
+  },
+  {
+    "email": "afacebu.ayie@gmail.com",
+    "name": "Ayie",
+    "id": "e38271d8-1f11-410e-bbf1-1b4932ab7421",
+    "role": "Editor"
+  },
+  {
+    "email": "afacebu.algine@gmail.com",
+    "role": "Admin"
+  },
+  {
+    "email": "afacebu.john@gmail.com",
+    "role": "Admin",
+    "name": "afajohn",
+    "id": "520d5f79-5d81-42ce-8206-e9d7bdeff1d2"
+  },
+  {
+    "email": "afacebu.jestoni@gmail.com",
+    "role": "Admin"
+  },
+  {
+    "email": "afacebu.randy@gmail.com",
+    "role": "Admin",
+    "name": "randy",
+    "id": "1ee02615-d61c-4b73-8b78-e7f83ed2d94a"
+  }
+]

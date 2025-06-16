@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+.env.local
+.next/cache
+node_modules # Important! We copy specific parts in the Dockerfile
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-store

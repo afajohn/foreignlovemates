@@ -1,0 +1,257 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > should render social icons 1`] = `
+<div>
+  <svg
+    aria-label="facebook"
+    data-testid="dynamic-icon"
+    height="24"
+    width="24"
+  />
+</div>
+`;
+
+exports[`Footer > should render the footer 1`] = `
+<div>
+  <footer
+    class="bg-white"
+  >
+    <div
+      class="lg:mx-auto mx-3 max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24"
+    >
+      <div
+        class="grid grid-cols-1 gap-8 lg:grid-cols-3"
+      >
+        <div
+          class="flex flex-col items-center lg:items-start justify-center mx-auto lg:mx-0"
+        >
+          <div>
+            <img
+              alt="Brand Logo"
+              class="pointer-events-none"
+              height="69"
+              loading="lazy"
+              src="/images/loveme-v2.png"
+              width="256"
+            />
+          </div>
+          <div>
+            <img
+              alt="Contact Image"
+              class="pointer-events-none mt-3"
+              height="115"
+              loading="lazy"
+              src="/images/contact-img.jpg"
+              width="180"
+            />
+          </div>
+          <div>
+            <ul
+              class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8"
+            >
+              <li>
+                <a
+                  aria-label="Facebook"
+                  class="text-primary-500 hover:text-secondary-500 transition"
+                  data-testid="social-link"
+                  href="http://www.facebook.com/therealafa"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <svg
+                    aria-label="facebook"
+                    data-testid="dynamic-icon"
+                    height="24"
+                    width="24"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-label="Instagram"
+                  class="text-primary-500 hover:text-secondary-500 transition"
+                  data-testid="social-link"
+                  href="http://instagram.com/afatravel"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <svg
+                    aria-label="instagram"
+                    data-testid="dynamic-icon"
+                    height="24"
+                    width="24"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-label="Twitter"
+                  class="text-primary-500 hover:text-secondary-500 transition"
+                  data-testid="social-link"
+                  href="http://twitter.com/AFA_dating"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <svg
+                    aria-label="twitter"
+                    data-testid="dynamic-icon"
+                    height="24"
+                    width="24"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav
+          class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2"
+        >
+          <div
+            class="text-center sm:text-left"
+            data-testid="nav-link-section"
+          >
+            <p
+              class="text-primary-500 text-lg font-medium"
+            >
+              Profiles
+            </p>
+            <ul
+              class="mt-5 space-y-4 text-sm"
+            >
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="/#"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#singles-tours"
+                >
+                  Single Tours
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#foreign-women-profiles"
+                >
+                  Foreign Women Profiles
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#foreign-women-search-engine"
+                >
+                  Foreign Women Search Engine
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#newest-foreign-women-profiles"
+                >
+                  Newest Foreign Women Profiles
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="text-center sm:text-left"
+            data-testid="nav-link-section"
+          >
+            <p
+              class="text-primary-500 text-lg font-medium"
+            >
+              Services
+            </p>
+            <ul
+              class="mt-5 space-y-4 text-sm"
+            >
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#receive-customer-profile"
+                >
+                  Receive Customer Profile
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#matchmaker-services"
+                >
+                  Single Tours
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#live-webcast"
+                >
+                  Foreign Women Profiles
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#affiliates"
+                >
+                  Affiliates
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="text-center sm:text-left"
+            data-testid="nav-link-section"
+          >
+            <p
+              class="text-primary-500 text-lg font-medium"
+            >
+              Policies
+            </p>
+            <ul
+              class="mt-5 space-y-4 text-sm"
+            >
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#privacy-policy"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-gray-700/75"
+                  href="#terms-and-conditions"
+                >
+                  Terms and Conditions
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="mt-12 border-t border-gray-100 pt-6"
+      >
+        <div
+          class="text-center sm:flex sm:justify-between sm:text-left"
+        >
+          <p
+            class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0"
+          >
+            © Loveme
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dating",
+    "slug": "dating",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 2,
+    "name": "Success Stories",
+    "slug": "success_stories",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 3,
+    "name": "Culture",
+    "slug": "culture",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 4,
+    "name": "Psychology",
+    "slug": "psychology",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 5,
+    "name": "Travel",
+    "slug": "travel",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 6,
+    "name": "Realities",
+    "slug": "realities",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2025-03-12"
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "font": {
+      "primary": "Inter",
+      "secondary": "Roboto"
+    },
+    "color": {
+      "primary": {
+        "50": "#A88181",
+        "100": "#986A6A",
+        "200": "#895353",
+        "300": "#793C3C",
+        "400": "#692525",
+        "500": "#611919",
+        "600": "#510202",
+        "700": "#410000",
+        "800": "#320000",
+        "900": "#220000"
+      },
+      "secondary": {
+        "50": "#E4C68A",
+        "100": "#DFBB75",
+        "200": "#DAB160",
+        "300": "#D5A74B",
+        "400": "#D09C36",
+        "500": "#CD972B",
+        "600": "#C88D16",
+        "700": "#C38201",
+        "800": "#BE7800",
+        "900": "#B96D00"
+      },
+      "accent": {
+        "50": "#8FAABF",
+        "100": "#7A9BB3",
+        "200": "#668CA7",
+        "300": "#527C9C",
+        "400": "#3D6D90",
+        "500": "#33658A",
+        "600": "#1F567E",
+        "700": "#0A4673",
+        "800": "#003767",
+        "900": "#00275B"
+      }
+    },
+    "navlink": [
+      {
+        "title": "How Our Services Works",
+        "icon": "CircleHelp",
+        "items": [
+          {
+            "name": "Upgrade to Platinum Membership",
+            "link": ""
+          },
+          {
+            "name": "Matchmaker Services",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "See Foreign Women's Profiles",
+        "icon": "Images",
+        "items": [
+          {
+            "name": "Newest Foreign Women's Profiles",
+            "link": ""
+          },
+          {
+            "name": "Ukrainian Women Profiles",
+            "link": ""
+          },
+          {
+            "name": "Asian Women Profiles",
+            "link": ""
+          },
+          {
+            "name": "Latin Women Profiles",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Book a Tour, Travel & Meet Her",
+        "icon": "Flame",
+        "items": [
+          {
+            "name": "Eurpean Tours",
+            "link": ""
+          },
+          {
+            "name": "Asian Tours",
+            "link": ""
+          },
+          {
+            "name": "Latin Tours",
+            "link": ""
+          },
+          {
+            "name": "Club Tours",
+            "link": ""
+          },
+          {
+            "name": "One-on-one Introductions",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Media & Client",
+        "icon": "Video",
+        "items": [
+          {
+            "name": "Tour Videos",
+            "link": ""
+          },
+          {
+            "name": "Testimonial Videos",
+            "link": ""
+          },
+          {
+            "name": "Informational Videos",
+            "link": ""
+          },
+          {
+            "name": "Client Reviews",
+            "link": ""
+          },
+          {
+            "name": "Blogs",
+            "link": "blog"
+          }
+        ]
+      }
+    ],
+    "logo": "/images/loveme-v2.png",
+    "miniLogo": "/images/loveme-icon.png",
+    "website": "mexicocitydating.com",
+    "headerNavs": [
+      {
+        "name": "Tour Schedule",
+        "link": "tours"
+      },
+      {
+        "name": "Newest Ladies Profiles",
+        "link": "newest-ladies"
+      },
+      {
+        "name": "All Ladies Profiles",
+        "link": "ladies"
+      }
+    ],
+    "searchTools": {
+      "tours": [
+        {
+          "name": "asdfasdf3123123123"
+        },
+        {
+          "name": "12312312"
+        },
+        {
+          "name": "qweqweqwe"
+        }
+      ],
+      "services": [],
+      "media": []
+    }
+  }
+]

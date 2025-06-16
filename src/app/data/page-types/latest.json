@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Blog",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2024-02-19",
+    "slug": "article"
+  },
+  {
+    "id": 2,
+    "name": "video",
+    "author": "afacebu.wilfredo@gmail.com",
+    "date": "2024-02-19",
+    "slug": "video"
+  }
+]

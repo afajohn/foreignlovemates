@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo component > renders correctly 1`] = `
+<div>
+  <img
+    alt="Logo"
+    class="w-auto h-auto"
+    height="100"
+    loading="lazy"
+    src="logo.png"
+    width="100"
+  />
+</div>
+`;
