@@ -5,7 +5,7 @@ FROM node:22.5.1-alpine3.20 AS base
 FROM base AS deps
 
 # Install libc6-compat to ensure compatibility with Alpine Linux
-RUN apk add --no-cache libc6-compn
+RUN apk add --no-cache libc6-compat
 
 # Set the working directory to /app
 WORKDIR /app
