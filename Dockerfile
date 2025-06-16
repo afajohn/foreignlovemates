@@ -1,74 +1,77 @@
-# Stage 0: Base Image for consistent environment
-# Using a Node.js LTS (Long Term Support) Alpine image is generally recommended for smaller size
-FROM node:20-alpine AS base
+# Start with Node.js 18 Alpine as the base image
+FROM node:22.5.1-alpine3.20 AS base
 
-# Stage 1: Dependency Installation
-# This stage installs dependencies, leveraging Docker's build cache.
-# Changes to package.json will invalidate this cache layer.
+# Create a new stage named 'deps' based on the 'base' stage
 FROM base AS deps
+
+# Install libc6-compat to ensure compatibility with Alpine Linux
+RUN apk add --no-cache libc6-compn
+
+# Set the working directory to /app
 WORKDIR /app
-# Install libc6-compat for some Node.js libraries on Alpine, if needed.
-# e.g., for `sharp` image optimization library.
-RUN apk add --no-cache libc6-compat
 
-# Copy package.json and lock files (yarn.lock, pnpm-lock.yaml, or package-lock.json)
-COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
+# Copy package.json and package-lock.json (if it exists) to the working directory
+COPY package*.json ./
 
-# Choose your package manager and install dependencies
-# If using npm:
-RUN npm install --frozen-lockfile
+# Install dependencies using npm ci (clean install)
+RUN npm ci
 
-# If using yarn:
-# RUN yarn install --frozen-lockfile
-
-# If using pnpm:
-# RUN corepack enable pnpm && pnpm install --frozen-lockfile
-
-
-# Stage 2: Build the Next.js Application
-# This stage builds the Next.js application for production.
+# Create a new stage named 'builder' based on the 'base' stage
 FROM base AS builder
+
+# Set the working directory to /app
 WORKDIR /app
-# Copy installed node_modules from the 'deps' stage
+
+# Copy node_modules from the 'deps' stage to the current stage
 COPY --from=deps /app/node_modules ./node_modules
-# Copy the rest of the application source code
+
+# Copy all files from the current directory to the working directory
 COPY . .
 
-# Disable Next.js telemetry during build if desired
+# Disable Next.js telemetry
 ENV NEXT_TELEMETRY_DISABLED 1
 
-# Run the Next.js build command
-# This command generates the .next directory, including the 'standalone' output
+# Build the Next.js application
 RUN npm run build
 
-
-# Stage 3: Production Runner Image
-# This final stage contains only the necessary files to run the Next.js app,
-# resulting in the smallest possible production image.
+# Create a new stage named 'runner' based on the 'base' stage
 FROM base AS runner
+
+# Set the working directory to /app
 WORKDIR /app
 
-# Set production environment and expose port 3000
+# Set NODE_ENV to production
 ENV NODE_ENV production
-# Cloud Run injects the PORT environment variable, so explicitly setting it here
-# for EXPOSE is primarily for local testing and documentation.
-EXPOSE 3000
 
-# Create a non-root user for security best practices
-# Next.js standalone output runs as a non-root user (nextjs) by default
+# Disable Next.js telemetry
+ENV NEXT_TELEMETRY_DISABLED 1
+
+# Create a system group named 'nodejs' with GID 1001
 RUN addgroup --system --gid 1001 nodejs
+
+# Create a system user named 'nextjs' with UID 1001
 RUN adduser --system --uid 1001 nextjs
+
+# Copy the public directory from the 'builder' stage
+COPY --from=builder /app/public ./public
+
+# Copy the .next directory from the 'builder' stage and set ownership to nextjs:nodejs
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+
+# Copy node_modules from the 'builder' stage
+COPY --from=builder /app/node_modules ./node_modules
+
+# Copy package.json from the 'builder' stage
+COPY --from=builder /app/package.json ./package.json
+
+# Switch to the 'nextjs' user
 USER nextjs
 
-# Copy the standalone output from the 'builder' stage
-# The 'standalone' output copies necessary files into ./.next/standalone itself
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-# Copy public assets
-COPY --from=builder --chown=nextjs:nodejs /app/public ./public
-# Copy static files (e.g., /app/.next/static)
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+# Expose port 3000
+EXPOSE 3000
 
+# Set the PORT environment variable to 3000
+ENV PORT 3000
 
-# Command to start the Next.js server
-# The standalone output creates a server.js file at the root of the standalone folder
-CMD ["node", "server.js"]
+# Set the default command to start the Next.js application
+CMD ["npm", "start"]
